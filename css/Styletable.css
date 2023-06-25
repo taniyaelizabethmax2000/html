@@ -1,0 +1,21 @@
+.mytable{
+background-color:pink;
+width:5px;
+padding:30px;
+border:2px solid black;
+}
+#td1{
+	color:blue;
+	font-family:cursive;
+	padding:20px;
+	font-size:25px;
+	
+}
+#td2{
+	color:blue;
+	border:2px solid black;
+	
+}
+#uname,#pname{
+	border:2px solid black;
+}

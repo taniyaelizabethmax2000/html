@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> another Example for Built In Math functions - compute</title>
+<script> 
+function myage( low, high) {
+
+ var myage =  document.getElementById('age').value;
+ 
+ var actualAge= parseInt(myage);
+ 
+document.write(actualAge.toString() +':');
+
+
+   if ( actualAge < low  ||  actualAge > high)  {
+   
+   document.write('Invalid Age Range');
+   }
+   
+   else   {
+   
+   document.write('valid Age Range');
+ }
+}
+</script>
+</head>
+<body>
+<input type="text" name="age" id="age" value="">`
+<input type="button" name="compute" value="compute" onclick="myage(24,50)">
+</body>
+</html>
+
+
+
+
+
+
+

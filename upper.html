@@ -1,0 +1,32 @@
+<html>
+<title>uppercase and lowercase</title>
+<head>
+<script>
+function string(){
+var upper=0;
+  var lower=0;
+    
+ var word1 =document.getElementById('word').value;
+ var s = word1;
+    for(var i=0;i<word1.length;i++){
+        if(s[i].toUpperCase() == s[i]) {
+            upper=upper+1;
+        }
+        else{
+            lower=lower+1;
+        }
+
+    }
+
+    document.write("upper"+upper + "<br>");
+    document.write("lower"+lower + "<br>");
+}
+ 
+
+</script>
+</head>
+<body>
+<input type="text" name="upper" id="word"  value=""/> 
+<input type="button" name="button" value="count"  onclick="string()" />
+</body>
+</html>
